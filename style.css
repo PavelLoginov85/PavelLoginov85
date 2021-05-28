@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.up_menu{
+    margin-top: 32px;
+}
+.all_content{
+     width: 1140px;
+     justify-content: center;
+}
+.index_box{
+    width: 1140px;
+     justify-content: center;
+
+}
+.menu{
+    position: relative;
+}
+.button_top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    align-items: center;
+
+}
+.button_top_left{
+
+}
+.label{
+    display: flex;
+    align-items: center;
+
+}
+.browse{
+    display: flex;
+    margin-left: 20px;
+}
+.browse1{
+    color: #222222;
+    font-size: 20px;
+    letter-spacing: normal;
+    width: 87px;
+    height: 38px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 38px;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+}
+.browse2{
+    width: 317px;
+    height: 38px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    padding-left: 15px;
+}
+
+.bran{
+    letter-spacing: 0.68px;
+    margin-left: 10px;
+    width: 93px;
+    color: #222222;
+    font-size: 27px;
+
+}
+.d{
+    color: #f16d7f;
+    font-family: "Lato - Black";
+    font-style: normal;
+    letter-spacing: 0.68px;
+    font-weight: bolder;
+}
+.button_top_right{
+
+}
+.trolley{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.donw_menu{
+    width: 1600px;
+    height: 51px;
+    background-color: #ffffff;
+    padding-left: 208px;
+}
+
+.menu_list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 680px;
+    height: 10px;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+}
+.menu_item{
+    position: relative;
+}
+.menu_item:hover .dress_box{
+    display: flex;
+}
+.header_dress{
+    width: 235px;
+    height: 1px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 16px;
+    margin-bottom: 5px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 4px;
+}
+.menu_list{
+}  
+.menu_link {
+    text-decoration: none;
+    padding: 14px;
+}
+.last:hover .dress_box{
+    right: 0px;
+   
+ }
+
+.dress_box{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    position: absolute;
+    top: 34px;
+    display: none;
+}
+.dress_box:before{
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: #ffffff;
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    transform: rotate(45deg);
+    border-left: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+}
+.clothes_box{
+    display: flex;
+    flex-direction: column;
+    margin-right: 46px;
+    
+}
+.clothes_box:last-of-type{
+    margin-right: 0px; 
+
+}
+.dress_type{
+    display: block;
+    color: #646464;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 26px;
+}
+.dress_type:hover{
+    color: #f16d7f;
+}
+
+.up_image_text{
+    position: relative;
+    width: 1365px;
+    height: 665px;
+    background: url(img/Layer_24.png);
+    margin-top: 290px;
+    
+}
+.rectangle_text{
+    width: 485px;
+    height: 92px;
+    display: flex;
+    position: absolute;
+    margin-top: 276px;
+     
+}
+.rectangle{
+    width: 12px;
+    height: 100%;
+    background-color: #f16d7f;
+    position: absolute;
+}
+
+.brand_text{
+    display: flex;
+    flex-direction: column;
+    width: 485px;
+    height: 92px;
+}
+.up_brand_text{
+    font-size: 60px;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    width: 485px;
+    height: 92px;
+    color: #222222;
+}
+.down_brand_text{
+    font-style: normal;
+    line-height: normal;
+    font-size: 40px;
+    width: 500px;
+}
+
+.my_account{
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    margin-left: 10px;
+    text-decoration: none;
+    line-height: 34px;
+    padding-left: 20px;
+    
+}
+.fasion{
+    color: #f16d7f;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+
+.four_pic{
+    display: flex;
+    margin-top: 98px;
+    margin-left: 98px;
+}
+.pic_left{
+    margin-right: 20px;
+    width: 560px;
+    flex-direction: column;
+}
+.pic_right{
+    width: 560px;
+    flex-direction: column;
+}
+.man_img{
+    background: url(img/man.svg);
+    width: 560px;
+    height: 542px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.box_text_men{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px;
+    width: 100%;
+}
+.hot_deal{
+    width: auto;
+    height: 82px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 26px;
+    
+}
+.text_deal{
+    width: 100%;
+    color: #222222;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    line-height: normal;
+    text-align: left;
+}
+.text_men{
+    color: #f16d7f;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 0.75px;
+    line-height: normal;
+
+}
+.wallet_img{
+    background: url(img/walet.svg);
+    width: 560px;
+    height: 261px;
+    
+}
+
+.accesories{
+    width: auto;
+    height: 82px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 26px;
+
+}
+.box_text_wallet{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px;
+    width: 100%;
+
+}
+.text_wallet1{
+    width: 100%;
+    color: #222222;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    line-height: normal;
+    text-align: left;
+
+}
+.text_wallet2{
+    color: #f16d7f;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 0.75px;
+    line-height: normal;
+    width: 100%;
+
+}
+
+.box_text_women{
+    width: auto;
+    height: 82px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 26px;
+
+}
+.women_img{
+    width: 560px;
+    height: 261px;
+    background: url(img/women.svg);
+    margin-bottom: 20px;
+}
+
+.boy_img{
+    width: 560px;
+    height: 542px;
+    background: url(img/boy.svg);
+    
+
+}
+
+summary {
+    display: block;
+  }
+  
+    summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary::after {
+    content: '\25B6';
+    padding-right: 0.5em;
+    color: #838383;
+    margin-left: 10px;
+    
+  }
+  
+  details[open] > summary::after {
+    content: '\25BC';
+    
+  }
+
