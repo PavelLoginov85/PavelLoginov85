@@ -52,7 +52,7 @@
     padding-left: 10px;
     list-style-type: none;
 }
-
+}
 .browse1{
     font-family: Lato;
     font-size: 16px;
@@ -60,9 +60,8 @@
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #222222;
+    padding-left: 12px;
     list-style-type: none;
-    display: flex;
-    align-items: center;
 }
 
 .xr{
@@ -615,7 +614,9 @@ text-decoration: none;
 .img_girl_text{
 position: relative;
 }
+.true_girl{
 
+}
 .offer{
     font-family: Lato;
     font-size: 53.7px;
@@ -721,7 +722,9 @@ position: relative;
     margin-right: 54px;
     padding-top: 110px;
 }
+.sea_descrip{
 
+}
 .sea_descrip_text{
     font-family: Lato;
     font-size: 16px;
@@ -806,6 +809,9 @@ position: relative;
     letter-spacing: 0.025em;
     color: #222224;
     text-align: center;
+
+}
+.subscribe{
 
 }
 

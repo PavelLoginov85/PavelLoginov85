@@ -1,0 +1,105 @@
+.navigetion{
+    .donw_menu{
+        width: 1600px;
+        height: 51px;
+        background-color: #ffffff;
+        padding-left: 335px;
+    }
+    
+    .menu_list{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        width: 680px;
+        height: 10px;
+        color: #2f2f2f;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .menu_item{
+        position: relative;
+
+    }
+    .menu_item:hover .dress_box{
+        display: flex;
+    }
+    .header_dress{
+        width: 235px;
+        height: 1px;
+        border-bottom: 1px solid #e8e8e8;
+        padding-bottom: 16px;
+        margin-bottom: 5px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 4px;
+
+        
+    }
+     
+    .menu_link {
+        text-decoration: none;
+        padding: 14px;
+        color:black;
+         
+
+    }
+    .last:hover .dress_box{
+        right: 0px;
+       
+     }
+    
+    .dress_box{
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 1px solid #e6e6e6;
+        padding: 20px;
+        position: absolute;
+        top: 34px;
+        display: none;
+    }
+    .dress_box:before{
+        content: "";
+        display: block;
+        width: 14px;
+        height: 14px;
+        background-color: #ffffff;
+        position: absolute;
+        top: -8px;
+        left: 20px;
+        transform: rotate(45deg);
+        border-left: 1px solid #e6e6e6;
+        border-top: 1px solid #e6e6e6;
+    }
+    .clothes_box{
+        display: flex;
+        flex-direction: column;
+        margin-right: 46px;
+        
+    }
+    .clothes_box:last-of-type{
+        margin-right: 0px; 
+    
+    }
+    
+    .empty_div{
+        width: 100%;
+        height: 118px;
+    }
+    
+    .img_ssale:hover{
+        box-shadow: #f16d7f 0 0 15px;
+    }
+    .dress_type{
+        display: block;
+        color: #646464;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: none;
+        line-height: 26px;
+    }
+    .dress_type:hover{
+        color: #f16d7f;
+    }
+}
